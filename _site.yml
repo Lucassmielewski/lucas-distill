@@ -1,0 +1,14 @@
+name: "."
+title: "lucas-distill"
+description: |
+  lucas-distill
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Welcome"
+      href: welcome.html
+output: distill::distill_article
